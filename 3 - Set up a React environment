@@ -1,0 +1,18 @@
+Step 1 - Install Node.js and NPM: Node.js is a JavaScript runtime environment, and NPM (Node Package Manager) is the default package manager for Node.js. You can download 
+and install both of them from the official Node.js website.
+
+Step2 - Choose a code editor: You can use any code editor to write React code, but some popular choices are Visual Studio Code, Sublime Text, and Atom.
+
+Step 3 - Create a new React app: You can create a new React app using Create React App, which is a tool that sets up a new React project with a default file structure and 
+configuration.
+
+Step 4 - Open your terminal or command prompt and run the following command:
+
+npx create-react-app my-app
+
+Step 5 - Run the React app: Once the app is created, navigate to the project directory and run the following command to start the development server:
+
+cd my-app
+npm start
+
+Step 6 - Verify the React app: Open your web browser and go to http://localhost:3000. You should see the default React app page.
