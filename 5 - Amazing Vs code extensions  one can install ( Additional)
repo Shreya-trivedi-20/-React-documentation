@@ -1,19 +1,29 @@
-ESLint: ESLint is a JavaScript linter that can help you identify and fix errors and enforce consistent coding styles. It is highly configurable and can be used with many different frameworks, including React. You can download ESLint here: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+ESLint: ESLint is a JavaScript linter that can help you identify and fix errors and enforce consistent coding styles. It is highly configurable and can be used with 
+many different frameworks, including React. You can download ESLint here: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
-Prettier: Prettier is a code formatter that can help you automatically format your code according to a set of rules. It can be used with many different languages, including JavaScript and React. You can download Prettier here: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+Prettier: Prettier is a code formatter that can help you automatically format your code according to a set of rules. It can be used with many different languages, 
+including JavaScript and React. You can download Prettier here: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
-Reactjs code snippets: This extension provides you with a set of code snippets for React development, including snippets for creating components, lifecycle methods, and more. You can download Reactjs code snippets here: https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets
+Reactjs code snippets: This extension provides you with a set of code snippets for React development, including snippets for creating components, lifecycle methods, 
+and more. You can download Reactjs code snippets here: https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets
 
-Debugger for Chrome: This extension allows you to debug your React application directly in the Chrome browser. It can be used to set breakpoints, step through code, and more. You can download Debugger for Chrome here: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
+Debugger for Chrome: This extension allows you to debug your React application directly in the Chrome browser. It can be used to set breakpoints, step through code,
+and more. You can download Debugger for Chrome here: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 
-Bracket Pair Colorizer: This extension helps you identify matching brackets in your code by colorizing them. It can be used with many different languages, including JavaScript and React. You can download Bracket Pair Colorizer here: https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
+Bracket Pair Colorizer: This extension helps you identify matching brackets in your code by colorizing them. It can be used with many different languages, including 
+JavaScript and React. You can download Bracket Pair Colorizer here: https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
 
-ES7 React/Redux/GraphQL/React-Native snippets: This extension provides you with a set of code snippets for React, Redux, GraphQL, and React Native development. You can download ES7 React/Redux/GraphQL/React-Native snippets here: https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+ES7 React/Redux/GraphQL/React-Native snippets: This extension provides you with a set of code snippets for React, Redux, GraphQL, and React Native development. 
+You can download ES7 React/Redux/GraphQL/React-Native snippets here: https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
 
-Auto Import: This extension automatically imports dependencies as you type, making it faster and easier to write code. It can be used with many different languages, including JavaScript and React. You can download Auto Import here: https://marketplace.visualstudio.com/items?itemName=steoates.autoimport
+Auto Import: This extension automatically imports dependencies as you type, making it faster and easier to write code. It can be used with many different languages, 
+including JavaScript and React. You can download Auto Import here: https://marketplace.visualstudio.com/items?itemName=steoates.autoimport
 
-GitLens: This extension helps you understand your code by providing Git blame annotations and code lens. It can be used with many different languages, including JavaScript and React. You can download GitLens here: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+GitLens: This extension helps you understand your code by providing Git blame annotations and code lens. It can be used with many different languages, including 
+JavaScript and React. You can download GitLens here: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 
-Better Comments: This extension improves the readability of your comments by highlighting them with different colors. You can use different colors for different types of comments, such as TODOs, FIXMEs, and more. You can download Better Comments here: https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
+Better Comments: This extension improves the readability of your comments by highlighting them with different colors. You can use different colors for different types 
+of comments, such as TODOs, FIXMEs, and more. You can download Better Comments here: https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
 
-Material Icon Theme: This extension provides you with material design icons for your files and folders in the sidebar. It can make it easier to navigate your project by providing visual cues. You can download Material Icon Theme here: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+Material Icon Theme: This extension provides you with material design icons for your files and folders in the sidebar. It can make it easier to navigate your project 
+by providing visual cues. You can download Material Icon Theme here: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
