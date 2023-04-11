@@ -75,5 +75,23 @@ SEO-Friendly: ReactJS is SEO-friendly, as it can be easily integrated with serve
 
 #4--- Applications of using ReactJs
 
+Web Applications: ReactJS is used extensively in web applications for building dynamic user interfaces. Companies like Facebook, Instagram, Netflix, and Airbnb use 
+ReactJS to build their web applications.
+
+Mobile Applications: React Native, a framework built on top of ReactJS, is used to build mobile applications for both iOS and Android platforms. Many popular 
+mobile applications such as Facebook, Instagram, and Tesla have been built using React Native.
+
+E-commerce websites: ReactJS is used in building E-commerce websites that require a high level of interactivity and real-time updates. Companies like Walmart, Adidas,
+and Amazon have leveraged ReactJS to enhance the user experience on their E-commerce websites.
+
+Social Networking sites: ReactJS is used by social networking sites such as Facebook and Instagram, where users require a seamless experience that can be achieved
+through dynamic updates and fast rendering.
+
+Gaming applications: ReactJS is used in building gaming applications that require complex user interfaces and real-time updates. Companies like Twitch, Zynga, 
+and Unity use ReactJS for their gaming applications.
+
+Enterprise Applications: ReactJS is used in building enterprise applications where scalability and maintainability are key requirements. Companies like Dropbox, 
+PayPal, and Atlassian have leveraged ReactJS to build their enterprise applications.
+
 
 
