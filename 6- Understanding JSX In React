@@ -5,5 +5,25 @@ JSX is not a separate language but a syntax extension that gets transformed into
 
 JSX allows developers to write HTML-like syntax in JavaScript code, making it easier to read and write code that creates UI elements. 
 
+JSX Example :
+
+const jsx = <h1>This is JSX</h1>
+
+This is simple JSX code in React. But the browser does not understand this JSX because it's not valid JavaScript code. This is because we're assigning an HTML tag 
+to a variable that is not a string but just HTML code.
+
+So to convert it to browser understandable JavaScript code, we use a tool like Babel which is a JavaScript compiler/transpiler.
+
+We can use the above JSX in our React code like this:
+
+class JSXDemo extends React.Component {
+    render() {
+        return <h1>This is JSX</h1>;
+    }
+}
+
+ReactDOM.render(<JSXDemo />, document.getElementById('root'));
+
+Here, we're returning the JSX from the JSXDemo component and rendering that on the screen using the ReactDOM.render method.
 
 
