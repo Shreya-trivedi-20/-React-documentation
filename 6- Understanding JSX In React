@@ -12,18 +12,36 @@ const jsx = <h1>This is JSX</h1>
 This is simple JSX code in React. But the browser does not understand this JSX because it's not valid JavaScript code. This is because we're assigning an HTML tag 
 to a variable that is not a string but just HTML code.
 
-So to convert it to browser understandable JavaScript code, we use a tool like Babel which is a JavaScript compiler/transpiler.
+So to convert it to browser understandable JavaScript code, There is a tool like Babel which is a JavaScript compiler/transpiler.
 
-We can use the above JSX in our React code like this:
+We can use the  JSX in our React code like this:
 
-class JSXDemo extends React.Component {
-    render() {
-        return <h1>This is JSX</h1>;
-    }
+Before moving forward , as a beginner it is possible for an individual to get confused which is the file they have to make changes in 
+
+Inside the src folder you can find APP.js file - this is the file that gets rendered and displayed on the web page , so any changes majorly have to be done in this file. 
+
+Writing our first JSX code :
+
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className ="first"> Hey First sentence using JSX !!!</div>
+  );
 }
 
-ReactDOM.render(<JSXDemo />, document.getElementById('root'));
+export default App;
 
-Here, we're returning the JSX from the JSXDemo component and rendering that on the screen using the ReactDOM.render method.
+This code can give you some warnings as we haven't used logo. 
+
+
+A question usually arises in an individuals mind - 
+
+Is JSX a must to work in React ??
+
+
+JSX is not required to use React, but it is a popular way to write React components. You can also write React code using plain JavaScript, but JSX can make your 
+code more readable and easier to understand. 
 
 
