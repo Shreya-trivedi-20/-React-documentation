@@ -1,10 +1,10 @@
 Before starting react , it is good if an individual knows about html , css and javascript. 
 
 
-#1 -- What is react? 
+# What is React ? 
 
-React is a library which is used for building user interfaces . The React.js framework is an open-source JavaScript framework and library developed by Facebook.
-It’s used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.
+**React is a library which is used for building user interfaces . The React.js framework is an open-source JavaScript framework and library developed by Facebook.
+It’s used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.**
 
 React offers various extensions for entire application architectural support, such as Flux and React Native, beyond mere UI.
 
