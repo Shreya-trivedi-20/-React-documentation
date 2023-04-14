@@ -1,0 +1,29 @@
+FIRST WAY :
+
+The first way is using inline styles, where you add CSS directly to the component's style prop. This approach is useful when you need to apply a few 
+specific styles to a particular element, and you don't want to create a separate CSS file or use a CSS-in-JS library.
+
+Example :
+
+<h1 style={{
+		backgroundColor: "lightblue",
+		width: "fit-content"
+	}}></h1>
+  
+  SECOND WAY :
+  
+  The second way is defining a styles object outside of the component, and then referencing it in the component's JSX. This approach is useful when you 
+  need to reuse styles across multiple components, or when you have a large number of styles to apply to a component. This approach can also make your code more 
+  maintainable by keeping your styles separate from your component logic.
+  
+  Example :
+  
+      h1: {
+      color: 'red',
+      fontSize: '32px',
+    }
+    
+ In general, both approaches have their use cases, and you can choose the one that best suits your needs. However, if you need more advanced CSS functionality like 
+ media queries or animations, you may want to consider using a CSS-in-JS library like Styled Components or Emotion.
+ 
+ 
