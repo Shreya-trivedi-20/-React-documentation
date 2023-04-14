@@ -14,5 +14,17 @@ return
 
 }
 
+Explanation :
+
+This is a functional component that returns an h1 element with the text "Hello, world!".
+
+In this example, the component doesn't take any props as input. It simply returns the same output every time it's called. It can be used in other components or in a 
+React app as-is.
+
+Greeting function is the component. It's a functional component that returns some markup (in this case, an h1 element with the text "Hello, world!").
+
+In React, components are functions or classes that return React elements (markup) which can be rendered to the screen. In this case, the Greeting function is a
+simple example of a functional component that returns some markup.
+
 
 
