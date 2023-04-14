@@ -1,0 +1,18 @@
+COMPONENTS - 
+
+In React, components are functions or classes that return React elements  which can be rendered to the screen. 
+
+Example :
+
+function Greeting ()
+
+{
+
+return 
+
+<h1> " Hey , how are you ?? " </h1> 
+
+}
+
+
+
