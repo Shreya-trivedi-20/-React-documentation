@@ -1,7 +1,9 @@
-Before starting react , it is good if an individual knows about html , css and javascript. 
+> Before starting react , it is good if an individual knows about html , css and javascript. 
+
+# React Basics 
 
 
-# What is React ? 
+## 1 -- What is React ? 
 
 **React is a library which is used for building user interfaces . The React.js framework is an open-source JavaScript framework and library developed by Facebook.
 It’s used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.**
@@ -16,7 +18,7 @@ that can be used again and again. They can also manage how the website or app lo
 This helps make websites and apps run faster and smoother.
 ReactJS is popular because it is easy to learn and use, and it can be used for all sorts of different projects.
 
-#2 -- Features of React js 
+## 2 -- Features of React js 
 
 Component-based architecture: ReactJS is based on a component-based architecture, which means that developers can create reusable UI components and use them throughout
 their applications. This helps to keep the code organized and makes it easier to maintain and update.
@@ -57,7 +59,7 @@ In simple words - JSX is a syntax extension used in React that allows developers
 enables developers to use familiar HTML tags and syntax to define the structure and content of components in a React application.
 
 
-#3--- Why use Reactjs ??
+## 3--- Why use Reactjs ??
 
 Reusable Components: ReactJS allows developers to create reusable components that can be used across different pages and applications, which makes the development 
 process faster and more efficient.
@@ -73,7 +75,7 @@ SEO-Friendly: ReactJS is SEO-friendly, as it can be easily integrated with serve
 
 
 
-#4--- Applications of using ReactJs
+## 4--- Applications of using ReactJs
 
 Web Applications: ReactJS is used extensively in web applications for building dynamic user interfaces. Companies like Facebook, Instagram, Netflix, and Airbnb use 
 ReactJS to build their web applications.
