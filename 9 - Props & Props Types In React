@@ -1,1 +1,9 @@
-Understanding Props
+Understanding Props:
+
+In React, you can create different components to represent different parts of your app. For example, you might create a component for a header, a component for a sidebar,
+and a component for a main section.
+
+Sometimes, you want to pass data from one component to another. That's where props come in!
+
+Props (short for "properties") are a way to pass data from a parent component to a child component. The parent component can specify the data it wants to pass down as 
+props when it renders the child component.
