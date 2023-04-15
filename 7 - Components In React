@@ -26,5 +26,11 @@ Greeting function is the component. It's a functional component that returns som
 In React, components are functions or classes that return React elements (markup) which can be rendered to the screen. In this case, the Greeting function is a
 simple example of a functional component that returns some markup.
 
+A small tip :
+
+In react when you use class based components you need to use render() in order to display things to the browser , but when you write functional components one does not 
+need to write render() . In functional components, the component function itself is responsible for returning the JSX code that should be displayed on the screen. 
+Since functional components are typically simpler and more concise than class components, they are often preferred in modern React development.
+
 
 
