@@ -7,3 +7,5 @@ Sometimes, you want to pass data from one component to another. That's where pro
 
 Props (short for "properties") are a way to pass data from a parent component to a child component. The parent component can specify the data it wants to pass down as 
 props when it renders the child component.
+
+Example of how to use props In React
