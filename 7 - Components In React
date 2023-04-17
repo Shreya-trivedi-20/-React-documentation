@@ -33,4 +33,10 @@ need to write render() . In functional components, the component function itself
 Since functional components are typically simpler and more concise than class components, they are often preferred in modern React development.
 
 
+PARENT - CHILD COMPONENTS 
+
+
+
+
+
 
