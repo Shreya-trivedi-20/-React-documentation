@@ -8,4 +8,43 @@ Sometimes, you want to pass data from one component to another. That's where pro
 Props (short for "properties") are a way to pass data from a parent component to a child component. The parent component can specify the data it wants to pass down as 
 props when it renders the child component.
 
-Example of how to use props In React
+Example of how to use props In React:
+
+Parent Component:
+
+import React from 'react';
+import ChildComponent from './ChildComponent';
+
+function ParentComponent() {
+  const message = 'Hello World';
+  return (
+    <div>
+      <ChildComponent message={message} />
+    </div>
+  );
+}
+
+export default ParentComponent;
+
+
+In this example, the ParentComponent passes the message variable to the ChildComponent as a prop with the name message.
+
+import React from 'react';
+
+function ChildComponent(props) {
+  return (
+    <div>
+      <p>{props.message}</p>
+    </div>
+  );
+}
+
+export default ChildComponent;
+
+
+In the ChildComponent, we receive the props parameter and use the message prop to render a paragraph element with the message.
+
+So when ParentComponent renders, it will pass the message value to the ChildComponent through the message prop, and ChildComponent will render the message as
+a paragraph element.
+
+
