@@ -33,7 +33,23 @@ need to write render() . In functional components, the component function itself
 Since functional components are typically simpler and more concise than class components, they are often preferred in modern React development.
 
 
-PARENT - CHILD COMPONENTS 
+CUSTOM COMPONENTS 
+
+What are custom components and why are they useful ??
+
+Custom components in React are like building blocks that you can create and reuse in your application to make your code more organized and easier to manage.
+
+For example, you could create a custom component for a button that you use frequently in your app. You could define the button's appearance and functionality,
+and then reuse it across different parts of your app.
+
+Custom components can be created using either a class or a function, and they can receive props from their parent component to customize their appearance or behavior.
+
+Once you've created a custom component, you can import it into your application and use it like any other built-in React component, such as div or p. 
+This allows you to build complex user interfaces by composing smaller, reusable components.
+
+
+
+
 
 
 
