@@ -33,6 +33,10 @@ need to write render() . In functional components, the component function itself
 Since functional components are typically simpler and more concise than class components, they are often preferred in modern React development.
 
 
+
+
+
+
 CUSTOM COMPONENTS 
 
 What are custom components and why are they useful ??
@@ -46,6 +50,46 @@ Custom components can be created using either a class or a function, and they ca
 
 Once you've created a custom component, you can import it into your application and use it like any other built-in React component, such as div or p. 
 This allows you to build complex user interfaces by composing smaller, reusable components.
+
+
+For example let us create a custom component inside the src folder and name it as newcomponents , inside it we will create our own custom component , Remember 
+the name should always be capitalized , for an instance let us suppose it's name to be Custom.js 
+
+We will create a button here which we can use in our application whenever we want
+
+Let's look at the code :
+
+import React from 'react'
+
+export default function Button(){
+
+    return(
+
+    <button>Click me !!</button>
+
+    )
+
+}
+
+Now in the App.js we will import this component 
+
+Here is the code for App.js
+
+
+import './App.css';
+
+import Button from './newcomponents/Custom';
+
+function App(){
+	return (
+		<>
+		<Button/>
+		</>
+	);
+}
+
+export default App;
+
 
 
 
