@@ -48,3 +48,38 @@ So when ParentComponent renders, it will pass the message value to the ChildComp
 a paragraph element.
 
 
+Let's now have a look at another example :
+
+Let's create a custom component and create a heading but the content of the heading will be passed from another file :
+
+Let's look at the Custom.js file :
+
+import React from 'react'
+
+export default function Heading(props){
+
+    return(
+
+    <h1>{props.title}</h1>
+
+    )
+
+}
+
+
+Now inside the App.js we will pass the value :
+
+
+import './App.css';
+
+import Heading from './newcomponents/Custom';
+
+function App(){
+	return (
+		<>
+		< Heading title ="First Heading"/>
+		</>
+	);
+}
+
+export default App;
