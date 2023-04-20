@@ -83,3 +83,16 @@ function App(){
 }
 
 export default App;
+
+
+
+
+
+
+Prop Types In React 
+
+
+What are Proptypes ?? 
+
+
+PropTypes are simply a mechanism that ensures that the passed value is of the correct datatype. 
