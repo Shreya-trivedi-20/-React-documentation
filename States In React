@@ -1,1 +1,9 @@
+React State :
+
+When you create a React application, you create different components that are responsible for rendering different parts of your application. Each component can have what
+is called "state", which is a place where you can store data that will change over time and affect how the component is displayed.
+
+Think of a state as a container that holds different pieces of information that your component needs to know about. For example, if you have a counter component that 
+displays a number that increments each time a button is clicked, you need a way to keep track of the current count. You could use state to store the current count and 
+update it each time the button is clicked.
 
