@@ -95,4 +95,55 @@ Prop Types In React
 What are Proptypes ?? 
 
 
-PropTypes are simply a mechanism that ensures that the passed value is of the correct datatype. 
+PropTypes are simply a mechanism that ensures that the passed value is of the correct datatype.
+
+
+Suppose we have two files one named as App.js :
+
+
+import './App.css';
+
+import Validation from './newcomponents/Custom';
+
+
+
+function App(){
+	return (
+		<>
+	  <Validation name ="Marley Malen"/>
+	  <Validation age = "8"/>
+	  <Validation qualification ="CBA"/>
+		</>
+	);
+}
+
+export default App;
+
+
+
+Now we have a file named as Custom.js
+
+import React from 'react';
+import PropTypes from "prop-types";
+
+export default function Validation(props) {
+  return (
+    <>
+      <h1>{props.name}</h1>
+      <h2>{props.age}</h2>
+      <h3>{props.qualification}</h3>
+    </>
+  );
+}
+
+Validation.propTypes = {
+  name: PropTypes.string,
+  age: PropTypes.number,
+  qualification: PropTypes.string,
+};
+
+
+
+Here we are making sure that name is a string , age will be a number and qualification will also be a number . 
+
+But when we check in the console we find we get an error because in age we have passed "8" which is a string but should be a nnumber. 
