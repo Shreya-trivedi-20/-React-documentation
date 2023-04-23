@@ -7,3 +7,17 @@ Think of a state as a container that holds different pieces of information that 
 displays a number that increments each time a button is clicked, you need a way to keep track of the current count. You could use state to store the current count and 
 update it each time the button is clicked.
 
+
+Difference between props and state 
+
+1 - Props (short for properties) are passed to a component by its parent component, while state is managed within the component itself.
+
+2 - Props are read-only, i.e., a component cannot modify its props directly. In contrast, state is mutable and can be modified using the setState() method.
+
+3 - Changes in props trigger a re-render of the component, but the component itself cannot trigger a re-render due to changes in its props. On the other hand, changes in
+state can trigger a re-render of the component, and the component can trigger a re-render by calling setState().
+
+4 - Props are used to pass data and functions from a parent component to its children, whereas state is used to manage the internal state of a component.
+
+In summary, props are used to pass data and functions down the component tree, while state is used to manage the state of a component internally.
+
