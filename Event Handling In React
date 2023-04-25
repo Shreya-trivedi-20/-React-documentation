@@ -4,4 +4,51 @@ a simple and intuitive way to handle events using its built-in event system.
 In React, event handling is done by defining event handlers as functions that are bound to particular events. Event handlers are defined as methods within a React
 component, and they are passed as props to the child components that need to handle those events.
 
+Handling Form Events :
+
+import React from 'react';
+
+class Form extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      email: ''
+    };
+  }
+
+  handleNameChange = (event) => {
+    this.setState({ name: event.target.value });
+  }
+
+  handleEmailChange = (event) => {
+    this.setState({ email: event.target.value });
+  }
+
+  handleSubmit = (event) => {
+    event.preventDefault();
+    console.log('Name:', this.state.name);
+    console.log('Email:', this.state.email);
+  }
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <label>
+          Name:
+          <input type="text" value={this.state.name} onChange={this.handleNameChange} />
+        </label>
+        <label>
+          Email:
+          <input type="email" value={this.state.email} onChange={this.handleEmailChange} />
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    );
+  }
+}
+
+export default Form;
+
+
 
