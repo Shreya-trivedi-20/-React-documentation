@@ -4,6 +4,8 @@ a simple and intuitive way to handle events using its built-in event system.
 In React, event handling is done by defining event handlers as functions that are bound to particular events. Event handlers are defined as methods within a React
 component, and they are passed as props to the child components that need to handle those events.
 
+Event handling in React is a way to respond to user actions like clicks, key presses, form submissions, etc.
+
 Handling Form Events :
 
 import React from 'react';
