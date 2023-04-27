@@ -6,6 +6,7 @@ component, and they are passed as props to the child components that need to han
 
 Event handling in React is a way to respond to user actions like clicks, key presses, form submissions, etc.
 
+
 Let's look at some of the examples : 
 
 Handling Form Events :
