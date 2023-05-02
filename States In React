@@ -21,3 +21,5 @@ state can trigger a re-render of the component, and the component can trigger a 
 
 In summary, props are used to pass data and functions down the component tree, while state is used to manage the state of a component internally.
 
+props are read-only properties passed down from a parent component to a child component, while state is a mutable object that a component owns and controls.
+
